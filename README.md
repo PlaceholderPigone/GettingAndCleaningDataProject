@@ -25,5 +25,5 @@ The script functions, by both of the train and test sets, doing the following:
  * Naming the activities based on the index number and the activity_labels.txt file
  * Finally, using the summarize function to take the average of each file, grouped by subject number and then activity type and writing the table created
  
-The script returns a text file in the starting base directory of the data files.
+The script returns a txt file in the starting base directory of the data files.
 
