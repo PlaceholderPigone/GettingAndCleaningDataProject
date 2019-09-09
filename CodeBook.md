@@ -16,9 +16,6 @@ activity - The description of the activity the subject was doing while the data 
   
   6 LAYING
   
-
-**The following variables are all averages of that data type for a particular subject + action combination**
-
 Basic concepts:
 
     * Body represents motion related to the subjects body, like the subject's own movements
@@ -28,7 +25,11 @@ Basic concepts:
     * Gyro represents the angular velocity vector measured by the gyroscope
     * Time domain represents the initial data collection over time
     * Frequency domain represents the data processed by a fast fourier transform. 
+    * All variables are normalized and bounded within [-1,1].
     * For more information see the features_info.txt and readme file in the data set
+    
+**The following variables are all averages of that data type for a particular subject + action combination**
+
 
  [3] "average_timedomain_bodyacc_mean_x"    
  
